@@ -22,7 +22,8 @@
 
 <!-- используйте только для шрифта находящегося на первом экране -->
 
-<!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
+<link rel="preload" href="fonts/roboto-regular.woff2" as="font" crossorigin="anonymous">
+<link rel="preload" href="fonts/roboto-bold.woff2" as="font" crossorigin="anonymous">
 
 <link rel="stylesheet" href="css/style.min.css">
 
@@ -76,34 +77,34 @@
   </div>
 
   <div class="wrapper">
-    <header class="header ">
-  <div class="header__wrapper">
-    <a class="header__logo"  href="main.html" aria-label="Переход на главную">
-      Логотип
-    </a>
+    <header class="header">
+  <a class="header__logo" href="#">
+    <img class="header__logo-image logo-menu--closed logo-menu" width="139" height="66" src="img/svg/logo.svg" alt="Логотип">
+  </a>
 
-    <nav class="main-nav">
-      <button class="main-nav__toggle btn-reset" type="button" aria-label="Переключатель отображения меню" aria-pressed="false">
-        <svg width="20" height="20">
-          <use xlink:href="#icon-burger"></use>
-        </svg>
-      </button>
-      <div class="main-nav__wrapper">
-        <ul class="main-nav__list">
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Страница 1</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Страница 2</a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link "  href="#" >Страница 3</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</header>
+  <nav class="main-nav main-nav--closed main-nav--nojs">
+    <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
+    <div class="main-nav__wrapper">
+      <ul class="main-nav__list site-list">
+        <li class="site-list__item site-list__item--tours">
+          <a class="site-list__link" href="#section-tours">Гастроли</a>
+        </li>
+        <li class="site-list__item site-list__item--gallery">
+          <a class="site-list__link" href="#section-gallery">Галерея</a>
+        </li>
+        <li class="site-list__item site-list__item--tickets">
+          <a class="site-list__link" href="#section-tickets">Билеты</a>
+        </li>
+        <li class="site-list__item site-list__item--regulations">
+          <a class="site-list__link" href="#section-regulations">Регламент</a>
+        </li>
+        <li class="site-list__item site-list__item--contacts">
+          <a class="site-list__link" href="#section-contacts">Контакты</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+ </header>
 
 
     <main>

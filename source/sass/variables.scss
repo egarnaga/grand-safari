@@ -5,6 +5,7 @@
 
 $color-default-black:             #000000;
 $color-default-white:             #ffffff;
+$color-default-blue:             #A3BCE4;
 $color-transparent:               rgba(255, 255, 255, 0);
 
 // Base
@@ -20,7 +21,7 @@ $black-to-right:                    linear-gradient(90deg, rgba(0, 0, 0, 0.75) 0
 // Typography
 //---------------------------------
 
-$font-family--:                     "", "Arial", sans-serif;
+$font-family--:                     "Roboto", "Arial", sans-serif;
 
 // Animation
 //---------------------------------
