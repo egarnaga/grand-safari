@@ -3,7 +3,7 @@
 <head>
 
   @@include("source/html/base/head.html")
-  <title>Цирк-шапито на льду «Звёзды Сибири»</title>
+  <title>Цирк-шапито на льду «Grand Safari»</title>
 
 </head>
 <body>
@@ -14,11 +14,30 @@
 
   <div class="wrapper">
 
-    @@include("source/html/base/header.html", {
-      "main": true
-    })
+    <div class="promo">
+      @@include("source/html/base/header.html", {
+        "main": true
+      })
 
+      <h1 class="visually-hidden">Цирк-шапито на льду «Grand Safari»</h1>
 
+      <div class="promo__video">
+        <video autoplay muted loop>
+          <source src="img/video/promo.mp4" type="video/mp4">
+        </video>
+      </div>
+
+      <div class="promo__btn">
+        <a href="#">
+          <svg x="0px" y="0px" viewBox="0 0 38.417 18.592">
+            <g>
+              <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
+            </g>
+          </svg>
+        </a>
+      </div>
+
+    </div>
 
     <main>
       <div class="container">
