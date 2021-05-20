@@ -1,0 +1,32 @@
+.gallery {
+  @include section;
+}
+
+@media screen and (max-width: 1023px) {
+  .gallery {
+    margin-bottom: 60px;
+    padding-bottom: 39px;
+    padding-left: 3.12%;
+    padding-right: 3.12%;
+  }
+}
+
+.gallery h2 {
+  @include h2;
+}
+
+@media screen and (max-width: 1023px) {
+  .gallery h2 {
+    margin-top: 39px;
+    margin-bottom: 30px;
+
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .gallery h2 {
+    font-size: 24px;
+  }
+}
