@@ -13,6 +13,8 @@ html,
 body {
   margin: 0;
   padding: 0;
+
+
 }
 
 body {
@@ -26,7 +28,8 @@ body {
   font-family: $font-family--;
   color: $color-default-blue;
 
-  background-color: $color-default-white;
+  background-color: $color-default-dark-blue;
+  background-image: url(../img/bg/bg-pattern.jpg);
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
