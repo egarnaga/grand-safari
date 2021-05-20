@@ -1,0 +1,97 @@
+.regulations {
+  @include section;
+}
+
+@media screen and (max-width: 1023px) {
+  .regulations {
+    margin-bottom: 60px;
+    padding-bottom: 39px;
+    padding-left: 3.12%;
+    padding-right: 3.12%;
+  }
+}
+
+.regulations h2 {
+  @include h2;
+}
+
+@media screen and (max-width: 1023px) {
+  .regulations h2 {
+    margin-top: 39px;
+    margin-bottom: 30px;
+
+    font-size: 26px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .regulations h2 {
+    font-size: 24px;
+  }
+}
+
+.regulations__list {
+  max-width: 800px;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: -20px;
+  padding: 0;
+
+  list-style: none;
+}
+
+.regulations__list p {
+  position: relative;
+
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 47px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+@media screen and (max-width: 1023px) {
+  .regulations__list p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .regulations__list p {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .regulations__list p {
+    padding-left: 33px;
+  }
+}
+
+.regulations__list p::before {
+  content: "";
+
+  position: absolute;
+
+  top: 0;
+  left: 0;
+
+  width: 40px;
+  height: 40px;
+
+  background-image: url(../img/svg/ticket.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+
+@media screen and (max-width: 540px) {
+  .regulations__list p::before {
+    top: 2px;
+
+    width: 25px;
+    height: 25px;
+  }
+}
