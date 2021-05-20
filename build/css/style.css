@@ -802,12 +802,12 @@ button,
     height: 13px; } }
 
 .greeting {
-  margin-top: 120px;
   margin-bottom: 120px;
   padding-bottom: 78px;
   padding-left: 6.25%;
   padding-right: 6.25%;
-  background-color: rgba(49, 84, 140, 0.5); }
+  background-color: rgba(49, 84, 140, 0.5);
+  margin-top: 120px; }
 
 @media screen and (max-width: 1023px) {
   .greeting {
@@ -942,6 +942,84 @@ button,
   .greeting__content-right-wrap {
     width: 482px;
     max-width: 482px; } }
+
+.announcement {
+  margin-bottom: 120px;
+  padding-bottom: 78px;
+  padding-left: 6.25%;
+  padding-right: 6.25%;
+  background-color: rgba(49, 84, 140, 0.5); }
+
+@media screen and (max-width: 1023px) {
+  .announcement {
+    margin-bottom: 60px;
+    padding-bottom: 39px;
+    padding-left: 3.12%;
+    padding-right: 3.12%; } }
+
+.announcement h2 {
+  margin: 0;
+  margin-top: 78px;
+  margin-bottom: 60px;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center; }
+
+@media screen and (max-width: 1023px) {
+  .announcement h2 {
+    margin-top: 39px;
+    margin-bottom: 30px;
+    font-size: 26px;
+    line-height: 1.5; } }
+
+@media screen and (max-width: 767px) {
+  .announcement h2 {
+    font-size: 24px; } }
+
+.announcement__list {
+  max-width: 800px;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: -20px;
+  padding: 0;
+  list-style: none; }
+
+.announcement__list p {
+  position: relative;
+  margin: 0;
+  margin-bottom: 20px;
+  padding-left: 47px;
+  font-size: 18px;
+  line-height: 21px; }
+
+@media screen and (max-width: 1023px) {
+  .announcement__list p {
+    font-size: 16px;
+    line-height: 1.5; } }
+
+@media screen and (max-width: 767px) {
+  .announcement__list p {
+    margin-bottom: 10px; } }
+
+@media screen and (max-width: 540px) {
+  .announcement__list p {
+    padding-left: 33px; } }
+
+.announcement__list p::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+  background-image: url(../img/svg/comet.svg);
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+
+@media screen and (max-width: 540px) {
+  .announcement__list p::before {
+    width: 25px;
+    height: 25px; } }
 
 .footer {
   /* min-height: 100px;
