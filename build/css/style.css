@@ -1204,18 +1204,114 @@ button,
   margin-bottom: 60px;
   font-size: 34px;
   line-height: 40px;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 15px; }
 
 @media screen and (max-width: 1023px) {
   .gallery h2 {
     margin-top: 39px;
-    margin-bottom: 30px;
     font-size: 26px;
     line-height: 1.5; } }
 
 @media screen and (max-width: 767px) {
   .gallery h2 {
     font-size: 24px; } }
+
+.gallery p {
+  max-width: 546px;
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center; }
+
+@media screen and (max-width: 1023px) {
+  .gallery p {
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 610px) {
+  .gallery p {
+    font-size: 16px;
+    line-height: 1.5; } }
+
+.gallery__content {
+  margin-bottom: -60px; }
+
+.gallery__card {
+  max-width: 850px;
+  margin: 0 auto;
+  margin-bottom: 60px;
+  padding-top: 39px;
+  padding-bottom: 80px;
+  padding-left: 131px;
+  padding-right: 131px;
+  background-color: #011C40; }
+
+@media screen and (max-width: 952px) {
+  .gallery__card {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px; } }
+
+@media screen and (max-width: 610px) {
+  .gallery__card {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px; } }
+
+@media screen and (max-width: 400px) {
+  .gallery__card {
+    padding-top: 25px; } }
+
+.gallery__card h3 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-size: 34px;
+  line-height: 40px;
+  text-align: center; }
+
+@media screen and (max-width: 1023px) {
+  .gallery__card h3 {
+    font-size: 26px;
+    line-height: 1.1; } }
+
+@media screen and (max-width: 767px) {
+  .gallery__card h3 {
+    font-size: 24px; } }
+
+@media screen and (max-width: 400px) {
+  .gallery__card h3 {
+    margin-bottom: 20px; } }
+
+.gallery__card p {
+  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 25px; }
+
+@media screen and (max-width: 767px) {
+  .gallery__card p {
+    max-width: 100%;
+    font-size: 16px;
+    text-align: left; } }
+
+.gallery__card-img {
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  background-color: #A3BCE4; }
+
+@media screen and (max-width: 610px) {
+  .gallery__card-img {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    padding-right: 2px; } }
+
+.gallery__card-img img {
+  width: 100%; }
 
 .tickets {
   margin-bottom: 120px;
