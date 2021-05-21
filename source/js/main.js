@@ -4,6 +4,8 @@ import {initModals} from './modules/init-modals';
 
 import {openMenu} from './modules/openMenu';
 
+import {smoothScroll} from './modules/smoothScroll';
+
 // Utils
 // ---------------------------------
 
@@ -14,3 +16,4 @@ ieFix();
 
 initModals();
 openMenu();
+smoothScroll();

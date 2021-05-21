@@ -9,16 +9,26 @@
 
 <!-- генерируйте favicon тут - https://realfavicongenerator.net/ -->
 
-<!-- <link href="favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-<link href="favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-<link href="favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-<link href="favicon/site.webmanifest" rel="manifest">
-<link color="#c84659" href="favicon/safari-pinned-tab.svg" rel="mask-icon">
-<link href="favicon/favicon.ico" rel="shortcut icon">
-<meta content="#ffffff" name="msapplication-TileColor">
-<meta content="favicon/browserconfig.xml" name="msapplication-config">
+<link href="img/favicon/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="img/favicon/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="img/favicon/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<!-- <link href="img/favicon/manifest.json" rel="manifest" crossorigin="use-credentials"> -->
+<link color="#5bbad5" href="img/favicon/safari-pinned-tab.svg" rel="mask-icon">
+<link href="img/favicon/favicon.ico" rel="shortcut icon">
+<meta content="#da532c" name="msapplication-TileColor">
+<meta content="img/favicon/browserconfig.xml" name="msapplication-config">
 <meta content="#ffffff" name="theme-color">
- -->
+
+
+<!-- <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+<link rel="manifest" href="img/favicon/site.webmanifest">
+<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff"> -->
+
+
 
 <!-- используйте только для шрифта находящегося на первом экране -->
 
@@ -48,20 +58,20 @@
     <button class="main-nav__toggle" type="button"><span class="visually-hidden">Открыть меню</span></button>
     <div class="main-nav__wrapper">
       <ul class="main-nav__list site-list">
-        <li class="site-list__item site-list__item--tours">
-          <a class="site-list__link" href="#section-tours">Гастроли</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#" id="tours-link">Гастроли</a>
         </li>
-        <li class="site-list__item site-list__item--gallery">
-          <a class="site-list__link" href="#section-gallery">Галерея</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#" id="gallery-link">Галерея</a>
         </li>
-        <li class="site-list__item site-list__item--tickets">
-          <a class="site-list__link" href="#section-tickets">Билеты</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#" id="tickets-link">Билеты</a>
         </li>
-        <li class="site-list__item site-list__item--regulations">
-          <a class="site-list__link" href="#section-regulations">Регламент</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#" id="regulations-link">Регламент</a>
         </li>
-        <li class="site-list__item site-list__item--contacts">
-          <a class="site-list__link" href="#section-contacts">Контакты</a>
+        <li class="site-list__item">
+          <a class="site-list__link" href="#" id="contacts-link">Контакты</a>
         </li>
       </ul>
     </div>
@@ -78,7 +88,7 @@
       </div>
 
       <div class="promo__btn">
-        <a href="#">
+        <a href="#" id="promo-link">
           <svg x="0px" y="0px" viewBox="0 0 38.417 18.592">
             <g>
               <path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path>
@@ -90,7 +100,7 @@
     </div>
 
     <main>
-      <div class="container">
+      <div class="container promo-target">
         <section class="greeting">
           <h2>Волшебство цирка-шапито на льду Grand Safari</h2>
 
@@ -158,7 +168,7 @@
           </ul>
         </section>
 
-        <section class="tours">
+        <section class="tours tours-target">
           <h2>График гастролей</h2>
           <p>Актуальные даты проведения гастролей цирка в Вашем городе</p>
 
@@ -216,11 +226,11 @@
           </div>
         </section>
 
-        <section class="gallery">
+        <section class="gallery gallery-target">
           <h2>Галерея</h2>
         </section>
 
-        <section class="tickets">
+        <section class="tickets tickets-target">
           <h2>Билеты</h2>
 
           <div class="tickets__content">
@@ -229,7 +239,7 @@
 
         </section>
 
-        <section class="regulations">
+        <section class="regulations regulations-target">
           <h2>Регламент</h2>
 
           <ul class="regulations__list">
@@ -258,7 +268,7 @@
       </div>
     </main>
 
-    <footer class="footer"></footer>
+    <footer class="footer contacts-target"></footer>
 
   </div>
 
