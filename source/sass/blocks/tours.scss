@@ -107,6 +107,10 @@
   line-height: 28px;
   text-transform: uppercase;
   text-align: center;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .tours__text {
@@ -172,5 +176,9 @@
   color: $color-default-blue;
   text-transform: uppercase;
   text-align: center;
+
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 

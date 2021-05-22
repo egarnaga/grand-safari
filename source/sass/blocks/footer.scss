@@ -203,6 +203,12 @@
   background-position: 0 0;
 }
 
+.footer__phone-list li a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 .footer__phone-list li a:hover {
   opacity: 0.8;
 }
@@ -245,6 +251,12 @@
   background-image: url(../img/svg/email.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
+}
+
+.footer__email-list li a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
 }
 
 .footer__email-list li a:hover {

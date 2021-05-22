@@ -1129,7 +1129,10 @@ button,
   font-size: 24px;
   line-height: 28px;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
 
 .tours__text {
   -webkit-box-flex: 1;
@@ -1182,7 +1185,10 @@ button,
   line-height: 20px;
   color: #A3BCE4;
   text-transform: uppercase;
-  text-align: center; }
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
 
 .gallery {
   margin-bottom: 120px;
@@ -1601,6 +1607,11 @@ button,
   background-repeat: no-repeat;
   background-position: 0 0; }
 
+.footer__phone-list li a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
 .footer__phone-list li a:hover {
   opacity: 0.8; }
 
@@ -1631,6 +1642,11 @@ button,
   background-image: url(../img/svg/email.svg);
   background-repeat: no-repeat;
   background-position: 0 0; }
+
+.footer__email-list li a {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
 
 .footer__email-list li a:hover {
   opacity: 0.8; }
